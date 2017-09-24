@@ -4,6 +4,9 @@ label menu, highpitch, exitlabel;
 var
    menuOption, pitchlength: Integer;
 begin
+
+     pitchlength := 1000; {Default length of pitch}
+
      menu:
      clrscr;
      writeln('===== PASCAL SOUND TESTS =====');
@@ -12,6 +15,7 @@ begin
      writeln('2. A low pitch sound example');
      writeln('3. A sound gradient example');
      writeln('4. A high pitch sound example');
+     writeln('5. Modify length of pitch [currently', pitchlength, ' ms].');
      readln(menuOption);
 
      if(menuOption = 1) then
