@@ -37,7 +37,11 @@ begin
      goto menu;
 
      lowpitch:
-
+     writeln('REPRODUCING...');
+     sound(800);
+     delay(pitchlength);
+     nosound;
+     read;
 
      goto menu;
 
