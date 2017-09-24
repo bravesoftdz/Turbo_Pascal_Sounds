@@ -59,6 +59,19 @@ begin
      goto menu;
 
 
+     gradient_down_label:
+     pivotGradient := 4000;
+     writeln('REPRODUCING...');
+     for counter:= 0 to 40 do
+     begin
+          pivotGradient := pivotGradient - 100;
+          sound(pivotGradient);
+          delay(100);
+     end;
+     nosound;
+     read;
+     goto menu;
+
      exitlabel:
 
 end.
