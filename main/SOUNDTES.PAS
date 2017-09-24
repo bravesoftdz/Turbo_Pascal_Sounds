@@ -17,6 +17,7 @@ begin
      writeln('4. A high pitch sound example');
      writeln('5. Modify length of pitch [currently', pitchlength, ' ms].');
      writeln('6. Exit the program.');
+     write('Type selected option: ');
      readln(menuOption);
 
      if(menuOption = 1) then
