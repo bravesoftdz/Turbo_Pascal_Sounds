@@ -1,6 +1,6 @@
 program soun;
 uses crt;
-label menu, highpitch, lowpitch, gradientlabel, exitlabel;
+label menu, highpitch, lowpitch, gradient_up_label, gradient_down_label, exitlabel;
 var
    menuOption, pitchlength, gradientInitial, counter, pivotGradient: Integer;
 begin
@@ -24,7 +24,7 @@ begin
      case menuOption of
           1 : goto highpitch;
           2 : goto lowpitch;
-          3 : goto gradientlabel;
+          3 : goto gradient_up_label;
           0 : goto exitlabel;
           else goto menu;
      end;
@@ -45,7 +45,7 @@ begin
      read;
      goto menu;
 
-     gradientlabel:
+     gradient_up_label:
      pivotGradient := 0;
      writeln('REPRODUCING...');
      for counter:= 0 to 40 do
