@@ -1,8 +1,8 @@
 program soun;
 uses crt;
-label menu, highpitch, lowpitch, exitlabel;
+label menu, highpitch, lowpitch, gradientlabel, exitlabel;
 var
-   menuOption, pitchlength: Integer;
+   menuOption, pitchlength, gradientInitial: Integer;
 begin
 
      pitchlength := 1000; {Default length of pitch}
@@ -42,6 +42,11 @@ begin
      delay(pitchlength);
      nosound;
      read;
+     goto menu;
+
+     gradientlabel:
+     gradientInitial = 100
+
 
      goto menu;
 
