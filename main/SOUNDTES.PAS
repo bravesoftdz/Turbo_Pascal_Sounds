@@ -2,7 +2,7 @@ program soun;
 uses crt;
 label menu, highpitch, lowpitch, gradientlabel, exitlabel;
 var
-   menuOption, pitchlength, gradientInitial: Integer;
+   menuOption, pitchlength, gradientInitial, counter, pivotGradient: Integer;
 begin
 
      pitchlength := 1000; {Default length of pitch}
@@ -45,9 +45,11 @@ begin
      goto menu;
 
      gradientlabel:
-     gradientInitial = 100
+     gradientInitial = 0
+     for counter:= 0 to 40 do
+     begin
 
-
+     end;
      goto menu;
 
 
