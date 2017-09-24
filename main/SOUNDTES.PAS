@@ -10,13 +10,13 @@ begin
      menu:
      clrscr;
      writeln('===== PASCAL SOUND TESTS =====');
-     writeln('Input the type of sound you would like to hear');
-     writeln('1. A high pitch sound example');
-     writeln('2. A low pitch sound example');
-     writeln('3. A sound gradient example');
-     writeln('4. A high pitch sound example');
+     writeln('Input the type of sound you would like to hear:');
+     writeln('1. A high pitch sound example.');
+     writeln('2. A low pitch sound example.');
+     writeln('3. A sound gradient example.');
+     writeln('4. A high pitch sound example.');
      writeln('5. Modify length of pitch [currently', pitchlength, ' ms].');
-     writeln('6. Exit the program.');
+     writeln('0. Exit the program.');
      write('Type selected option: ');
      readln(menuOption);
 
