@@ -13,8 +13,8 @@ begin
      writeln('Input the type of sound you would like to hear:');
      writeln('1. A high pitch sound example.');
      writeln('2. A low pitch sound example.');
-     writeln('3. A sound gradient example.');
-     writeln('4. A high pitch sound example.');
+     writeln('3. An increasing sound gradient example.');
+     writeln('4. A decreasing sound gradient example.');
      writeln('5. Modify length of pitch [currently ', pitchlength, ' ms].');
      writeln('0. Exit the program.');
      write('Type selected option: ');
@@ -24,6 +24,7 @@ begin
      case menuOption of
           1 : goto highpitch;
           2 : goto lowpitch;
+          3 : goto gradientlabel;
           0 : goto exitlabel;
           else goto menu;
      end;
