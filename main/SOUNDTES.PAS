@@ -1,6 +1,6 @@
 program soun;
 uses crt;
-label menu, highpitch, exitlabel;
+label menu, highpitch, lowpitch, exitlabel;
 var
    menuOption, pitchlength: Integer;
 begin
@@ -35,6 +35,12 @@ begin
      nosound;
      read;
      goto menu;
+
+     lowpitch:
+
+
+     goto menu;
+
 
      exitlabel:
 
