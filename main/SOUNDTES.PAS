@@ -21,12 +21,12 @@ begin
      readln(menuOption);
      writeln('');
 
-     if(menuOption = 1) then
-     goto highpitch
-     else if(menuOption = 0) then
-     goto exitlabel
-     else
-     goto menu;
+     case menuOption of
+          1 : goto highpitch;
+          2 : goto lowpitch;
+          0 : goto exitlabel;
+          else goto menu;
+     end;
 
      highpitch:
      writeln('REPRODUCING...');
