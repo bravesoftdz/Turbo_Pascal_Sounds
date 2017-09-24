@@ -2,7 +2,7 @@ program soun;
 uses crt;
 label menu, highpitch, exitlabel;
 var
-   menuOption: Integer;
+   menuOption, pitchlength: Integer;
 begin
      menu:
      clrscr;
