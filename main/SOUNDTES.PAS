@@ -6,7 +6,12 @@ var
 begin
      menu:
      clrscr;
-     writeln('This is a test of sounds: Input the type of sound you would like to hear');
+     writeln('===== PASCAL SOUND TESTS =====');
+     writeln('Input the type of sound you would like to hear');
+     writeln('1. A high pitch sound example');
+     writeln('2. A low pitch sound example');
+     writeln('3. A sound gradient example');
+     writeln('4. A high pitch sound example');
      readln(menuOption);
 
      if(menuOption = 1) then
