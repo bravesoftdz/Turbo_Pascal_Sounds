@@ -16,6 +16,7 @@ begin
      writeln('3. A sound gradient example');
      writeln('4. A high pitch sound example');
      writeln('5. Modify length of pitch [currently', pitchlength, ' ms].');
+     writeln('6. Exit the program.');
      readln(menuOption);
 
      if(menuOption = 1) then
