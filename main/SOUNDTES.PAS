@@ -25,6 +25,7 @@ begin
           1 : goto highpitch;
           2 : goto lowpitch;
           3 : goto gradient_up_label;
+          4 : goto gradient_down_label;
           0 : goto exitlabel;
           else goto menu;
      end;
