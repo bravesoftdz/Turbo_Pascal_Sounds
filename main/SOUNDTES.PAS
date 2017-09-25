@@ -16,7 +16,8 @@ begin
      writeln('2. A low pitch sound example.');
      writeln('3. An increasing sound gradient example.');
      writeln('4. A decreasing sound gradient example.');
-     writeln('5. Modify length of pitch [currently ', pitchlength, ' ms].');
+     writeln('5. Reproduce a random composition.');
+     writeln('6. Modify length of pitch [currently ', pitchlength, ' ms].');
      writeln('0. Exit the program.');
      write('Type selected option: ');
      readln(menuOption);
