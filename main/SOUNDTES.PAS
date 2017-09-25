@@ -4,11 +4,12 @@ label menu, highpitch, lowpitch, gradient_up_label, gradient_down_label, exitlab
 var
    menuOption, pitchlength, gradientInitial, counter, pivotGradient: Integer;
 begin
-
+     Randomize;
      pitchlength := 1000; {Default length of pitch}
 
      menu:
      clrscr;
+     writeln(Random(5));
      writeln('===== PASCAL SOUND TESTS =====');
      writeln('Input the type of sound you would like to hear:');
      writeln('1. A high pitch sound example.');
