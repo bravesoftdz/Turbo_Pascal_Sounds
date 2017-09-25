@@ -86,6 +86,12 @@ begin
      read;
      goto menu;
 
+     correction_label:
+     writeln('');
+     write('Input new length (in ms) for each pitch: ');
+     readln(pitchlength);
+     goto menu;
+
      exitlabel:
 
 end.
