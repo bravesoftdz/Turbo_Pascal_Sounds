@@ -76,7 +76,14 @@ begin
      goto menu;
 
      random_label:
-
+     writeln('REPRODUCING RANDOM COMPOSITION...');
+     for counter:= 0 to 40 do
+     begin
+          sound(Random(4000));
+          delay(100);
+     end;
+     nosound;
+     read;
      goto menu;
 
      exitlabel:
