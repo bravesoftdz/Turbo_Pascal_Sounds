@@ -75,6 +75,10 @@ begin
      read;
      goto menu;
 
+     random_label:
+
+     goto menu;
+
      exitlabel:
 
 end.
