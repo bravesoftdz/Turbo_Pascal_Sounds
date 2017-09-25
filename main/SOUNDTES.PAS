@@ -1,6 +1,6 @@
 program soun;
 uses crt;
-label menu, highpitch, lowpitch, gradient_up_label, gradient_down_label, exitlabel;
+label menu, highpitch, lowpitch, gradient_up_label, gradient_down_label, random_label, exitlabel;
 var
    menuOption, pitchlength, gradientInitial, counter, pivotGradient: Integer;
 begin
