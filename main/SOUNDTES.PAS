@@ -9,7 +9,6 @@ begin
 
      menu:
      clrscr;
-     writeln(Random(5));
      writeln('===== PASCAL SOUND TESTS =====');
      writeln('Input the type of sound you would like to hear:');
      writeln('1. A high pitch sound example.');
