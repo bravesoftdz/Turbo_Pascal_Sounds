@@ -18,3 +18,4 @@ The produced program has different options:
 1. Reproduce a high pitch sound example.
 2. Reprodue a low pitch sound example.
 3. Reproduce an increasing sound gradient example.
+4. Reproduce a decreasing sound gradient example.
