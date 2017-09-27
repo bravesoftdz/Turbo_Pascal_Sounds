@@ -22,5 +22,7 @@ The produced program has a menu that allows to reproduce different options:
 5. A random composition.
 
 And the menu also has two extra options:
-6. Modify the length of the produced pitches.
-7. Exit the program.
+1. Modify the length of the produced pitches.
+2. Exit the program.
+
+![pic01](/images/demo01.png?raw=true)
