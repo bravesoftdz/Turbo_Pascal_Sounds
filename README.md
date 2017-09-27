@@ -14,13 +14,13 @@ Just open the file **SOUNDTES.PAS** in Turbo Pascal.
 
 To execute the file, just do a normal **CTRL + F9** key stroke in the keyboard (or go to *Compile -> Run*).
 
-The produced program reproduce different options:
+The produced program has a menu that allows to reproduce different options:
 1. A high pitch sound example.
 2. A low pitch sound example.
 3. An increasing sound gradient example.
 4. A decreasing sound gradient example.
 5. A random composition.
 
-and also can do two extra options:
+And the menu also has two extra options:
 6. Modify the length of the produced pitches.
 7. Exit the program.
