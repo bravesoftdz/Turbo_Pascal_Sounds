@@ -19,3 +19,4 @@ The produced program has different options:
 2. Reprodue a low pitch sound example.
 3. Reproduce an increasing sound gradient example.
 4. Reproduce a decreasing sound gradient example.
+5. Reproduce a random composition.
