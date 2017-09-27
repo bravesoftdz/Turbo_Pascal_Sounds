@@ -29,4 +29,14 @@ And the menu also has two extra options:
 
 ## Code
 
+### Sound generation
+
 For produce the sounds, the following code was used:
+
+```pascal
+writeln('REPRODUCING...');
+sound(3000);
+delay(pitchlength);
+nosound;
+read;
+```
