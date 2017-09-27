@@ -26,3 +26,7 @@ And the menu also has two extra options:
 2. Exit the program.
 
 ![demo01](/images/demo.gif?raw=true)
+
+## Code
+
+For produce the sounds, the following code was used:
