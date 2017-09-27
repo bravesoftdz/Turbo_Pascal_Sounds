@@ -13,3 +13,6 @@ Just open the file **SOUNDTES.PAS** in Turbo Pascal.
 ## Execution
 
 To execute the file, just do a normal **CTRL + F9** key stroke in the keyboard (or go to *Compile -> Run*).
+
+The produced program has different options:
+1. Reproduce a high pitch sound example.
