@@ -29,6 +29,8 @@ And the menu also has two extra options:
 
 ## Code
 
+There are two important sections to address in the code for this program: the sound generation and the jumps for the menu.
+
 ### Sound generation
 
 For produce the sounds, the following code was used:
@@ -40,3 +42,4 @@ delay(pitchlength);
 nosound;
 read;
 ```
+where **pitchlength** is an integer variable previously defined which indicates the length of the pitch.
