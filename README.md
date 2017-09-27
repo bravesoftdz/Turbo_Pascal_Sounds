@@ -21,3 +21,4 @@ The produced program has different options:
 4. Reproduce a decreasing sound gradient example.
 5. Reproduce a random composition.
 6. Modify the length of the produced pitches.
+7. Exit the program.
