@@ -25,4 +25,4 @@ And the menu also has two extra options:
 1. Modify the length of the produced pitches.
 2. Exit the program.
 
-![pic01](/images/demo01.png?raw=true)
+![demo01](/images/demo.gif?raw=true)
