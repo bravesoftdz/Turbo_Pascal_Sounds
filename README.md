@@ -17,3 +17,4 @@ To execute the file, just do a normal **CTRL + F9** key stroke in the keyboard (
 The produced program has different options:
 1. Reproduce a high pitch sound example.
 2. Reprodue a low pitch sound example.
+3. Reproduce an increasing sound gradient example.
