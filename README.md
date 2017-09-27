@@ -8,5 +8,7 @@ This is a project that shows how to implement sounds using Turbo Pascal.
 
 Just open the file **SOUNDTES.PAS** in Turbo Pascal. 
 
+![demo02](/images/open.gif?raw=true)
+
 ## Execution
 
