@@ -43,3 +43,11 @@ nosound;
 read;
 ```
 where **pitchlength** is an integer variable previously defined which indicates the length of the pitch.
+
+#### Notes
+
+The line
+```pascal
+sound(3000);
+```
+indicates the frequency of the output sound. A high value will produce a high pitch, while a low value will produce a low pitch.
