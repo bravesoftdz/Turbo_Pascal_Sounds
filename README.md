@@ -60,7 +60,10 @@ read;
 The previous code basically increases the pitch by 100 in each iteration.
 
 Finally, for the random sounds, the random function
-
+```pascal
+Random()
+```
+was used. 
 
 ### Notes
 
