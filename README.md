@@ -91,3 +91,8 @@ are needed to stop the sound. If they are not added, the sound will keep going u
 ## Menu jumps
 
 The menu jumps were obtained by the use of **labels**. At the beggining of the code, the labes have to be defined as
+```pascal
+program soun;
+uses crt;
+label menu, highpitch, lowpitch, gradient_up_label, gradient_down_label, random_label, correction_label, exitlabel;
+```
