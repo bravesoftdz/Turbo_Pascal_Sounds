@@ -104,3 +104,8 @@ lowpitch:
 
 goto menu;
 ```
+where
+```pascal
+goto menu;
+```
+makes it to jump to the label called **menu**.
