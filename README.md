@@ -51,3 +51,9 @@ The line
 sound(3000);
 ```
 indicates the frequency of the output sound. A high value will produce a high pitch, while a low value will produce a low pitch.
+
+It is worth to mention that the lines
+```pascal
+nosound;
+read;
+```
