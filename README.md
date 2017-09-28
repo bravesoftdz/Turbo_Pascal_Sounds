@@ -45,7 +45,18 @@ read;
 where **pitchlength** is an integer variable previously defined which indicates the length of the pitch.
 
 For the increasing (and decreasing) gradient scales, the following code was used
-
+```pascal
+pivotGradient := 0;
+writeln('REPRODUCING...');
+for counter:= 0 to 40 do
+begin
+	pivotGradient := pivotGradient + 100;
+	sound(pivotGradient);
+	delay(100);
+end;
+nosound;
+read;
+```
 
 ### Notes
 
