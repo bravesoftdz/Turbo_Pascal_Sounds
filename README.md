@@ -67,6 +67,11 @@ was used. To use this function, at the beggingin of the code, you must use the c
 ```pascal
 Randomize;
 ```
+and to produce a random sound, just use do it as
+```pascal
+sound(Random(4000));
+delay(100);
+```
 
 ### Notes
 
