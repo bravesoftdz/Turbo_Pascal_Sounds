@@ -63,7 +63,10 @@ Finally, for the random sounds, the random function
 ```pascal
 Random()
 ```
-was used. 
+was used. To use this function, at the beggingin of the code, you must use the command
+```pascal
+Randomize;
+```
 
 ### Notes
 
