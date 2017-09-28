@@ -96,3 +96,11 @@ program soun;
 uses crt;
 label menu, highpitch, lowpitch, gradient_up_label, gradient_down_label, random_label, correction_label, exitlabel;
 ```
+Later, for defining a section of code that will be identified by a label, you use
+```pascal
+lowpitch:
+
+{all your code here}
+
+goto menu;
+```
