@@ -87,3 +87,5 @@ nosound;
 read;
 ```
 are needed to stop the sound. If they are not added, the sound will keep going until the program is finished.
+
+## Menu jumps
