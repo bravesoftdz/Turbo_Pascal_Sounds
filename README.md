@@ -90,4 +90,4 @@ are needed to stop the sound. If they are not added, the sound will keep going u
 
 ## Menu jumps
 
-The menu jumps were obtained by the use of **labels**.
+The menu jumps were obtained by the use of **labels**. At the beggining of the code, the labes have to be defined as
