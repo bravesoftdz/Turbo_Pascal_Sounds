@@ -44,6 +44,9 @@ read;
 ```
 where **pitchlength** is an integer variable previously defined which indicates the length of the pitch.
 
+For the increasing (and decreasing) gradient scales, the following code was used
+
+
 ### Notes
 
 The line
