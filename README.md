@@ -109,4 +109,5 @@ where
 goto menu;
 ```
 makes it to jump to the label called **menu**.
+
 ![demo02](/images/gif_pascal_01.gif?raw=true)
