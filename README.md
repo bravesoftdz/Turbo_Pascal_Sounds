@@ -72,7 +72,7 @@ and to produce a random sound, just use do it as
 sound(Random(4000));
 delay(100);
 ```
-where *Random(4000)* returns a random integer between 0 and 3999.
+where *Random(4000)* returns a random integer between 0 and 3999. (So you can modify this accordingly to vary the lowest and highest pitch you want to obtain).
 
 ### Notes
 
