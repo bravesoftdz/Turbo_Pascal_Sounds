@@ -44,7 +44,7 @@ read;
 ```
 where **pitchlength** is an integer variable previously defined which indicates the length of the pitch.
 
-#### Notes
+### Notes
 
 The line
 ```pascal
